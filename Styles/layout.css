@@ -1,0 +1,29 @@
+.app {
+  display: grid;
+  grid-template-columns: 39% 61%;
+  gap: 2rem;
+
+  height: 100vh;
+  overflow: hidden;
+
+  background-color: var(--shape-background);
+  padding: 2rem;
+}
+
+aside {
+  img {
+    width: 100%;
+    border-radius: 1.2rem;
+  }
+}
+
+.main-content {
+  background-color: var(--shape-body);
+  border-radius: 1.2rem;
+  padding: 8rem 13rem;
+
+  h2 {
+    font: var(--heading-md);
+    color: var(--text-heading);
+  }
+}

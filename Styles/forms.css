@@ -1,0 +1,57 @@
+form {
+  margin-top: 4.2rem;
+}
+
+fieldset {
+  display: grid;
+  gap: 1.6rem;
+  border: none;
+  margin-top: 4.8rem;
+
+  .title-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    margin-bottom: 2.4rem;
+
+    svg {
+      width: 2.4rem;
+      height: 2.4rem;
+    }
+
+    svg path {
+      stroke: var(--input-placeholder);
+    }
+
+    legend {
+      color: var(--text-heading);
+      font: var(--heading-sm);
+    }
+  }
+}
+
+input,
+textarea {
+  appearance: none;
+  width: 100%;
+  border-radius: 0.8rem;
+  background-color: var(--input-base);
+  border: 1px solid var(--input-stroke);
+
+  padding: 1.3rem 1.6rem;
+  font: var(--body-md);
+  color: var(--input-placeholder);
+}
+
+label {
+  font: var(--body-sm);
+  color: var(--text-body);
+  display: inline-block;
+  margin-bottom: 1.2rem;
+}
+
+.time-wrapper,
+.type-wrapper {
+  display: flex;
+  gap: 1.6rem;
+}
