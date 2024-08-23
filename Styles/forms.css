@@ -41,6 +41,26 @@ textarea {
   padding: 1.3rem 1.6rem;
   font: var(--body-md);
   color: var(--input-placeholder);
+
+  &:invalid {
+    border: 0.125rem solid var(--danger);
+  }
+
+  &[required] + .mandatory {
+    display: flex;
+    flex-direction: row;
+    gap: 0.8rem;
+    align-items: center;
+    margin-top: 0.8rem;
+    small {
+      color: var(--danger);
+      font: var(--body-xs);
+    }
+  }
+
+  &:valid + .mandatory {
+    display: none;
+  }
 }
 
 label {
@@ -51,7 +71,13 @@ label {
 }
 
 .time-wrapper,
-.type-wrapper {
+.type-wrapper,
+.flex-wrapper {
   display: flex;
   gap: 1.6rem;
+}
+
+.contact {
+  margin-bottom: 4.8rem;
+  gap: 1.4rem;
 }
