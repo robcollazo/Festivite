@@ -81,3 +81,54 @@ label {
   margin-bottom: 4.8rem;
   gap: 1.4rem;
 }
+
+.custom-options {
+  display: flex;
+
+  .custom-style {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    img {
+      height: 3.2rem;
+      width: 6.4rem;
+    }
+  }
+}
+
+.dropzone {
+  position: relative;
+  width: 12rem;
+
+  & input {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    inset: 0;
+    opacity: 0;
+  }
+
+  .upload-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+    border-radius: 0.8rem;
+    padding: 1.2rem;
+    background-color: var(--shape-button);
+
+    svg {
+      height: 1.6rem;
+      width: 1.6rem;
+
+      path {
+        stroke: var(--brand-light);
+      }
+    }
+
+    span {
+      font: var(--body-sm);
+      color: var(--text-heading);
+    }
+  }
+}

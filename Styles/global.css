@@ -16,7 +16,7 @@
   --brand-dark: #1d6fb6;
 
   --purple: #b259ff;
-  --fuschila: #ff59f9;
+  --fuschia: #ff59f9;
   --pink: #ff598b;
   --orange: #ff8b59;
   --yellow: #ffcd59;
@@ -49,4 +49,48 @@
 
 .flex-1 {
   flex: 1;
+}
+
+.flex-2 {
+  flex: 2;
+}
+
+.picker-brand-light {
+  background-color: var(--brand-light);
+}
+
+.picker-navy {
+  background-color: var(--navy);
+}
+
+.picker-purple {
+  background-color: var(--purple);
+}
+
+.picker-fuschia {
+  background-color: var(--fuschia);
+}
+
+.picker-pink {
+  background-color: var(--pink);
+}
+
+.picker-danger {
+  background-color: var(--danger);
+}
+
+.picker-orange {
+  background-color: var(--orange);
+}
+.picker-yellow {
+  background-color: var(--yellow);
+}
+.picker-lime {
+  background-color: var(--lime);
+}
+.picker-green {
+  background-color: var(--green);
+}
+.picker-cyan {
+  background-color: var(--cyan);
 }
